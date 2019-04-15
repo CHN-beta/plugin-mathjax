@@ -139,6 +139,14 @@ module.exports = {
                 end: "$$"
             },
             process: processBlock
+        },
+        math2: {
+            shortcuts: {
+                parsers: ["markdown", "asciidoc"],
+                start: "$",
+                end: "$"
+            },
+            process: processBlock
         }
     }
 };
